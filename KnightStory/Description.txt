@@ -1,0 +1,19 @@
+﻿
+Knight Story
+
+Idea: Generated story about a knight, who goes on adventure to defeat The Evil Wizard.
+To succesfully defeat The Wizard, The Knight should firstly defeat 100 monsters, called by The Evil Wizard
+
+
+1. Method Main() calls the method StartJourney in the Journey.cs
+2. Method StartJourney writes "The Knight started journey."
+3. Method creates object Knight from the class Knight and object EvilWisard from class EvilWizard
+4. Wizard calls random monster.
+5. Knight "fights" the monster by few equations.
+5.1. If during fight knight heals reaches 0, he is dead.
+5.2. Monster can drop healing item
+5.3. If knight's health drops below 50, he heals automatically
+6. Steps 4 and 5 repeat for 100 times
+7. Then EvilWizard will appear himself
+8. Knight fights the Wizards
+9. Happy ending
